@@ -11,15 +11,22 @@ The application , ATM, is not meant to have any GUI and will be run from the com
 ### Additional features:
 - Be able to shut down the program and re-run it without losing the data.
 
-## Structure:
-TODO
+## Structure / user experience:
+- Main menu:
+  - Add product
+    - TODO whether to add product by name or by URL
+    - Set settings and information
+  - List products
+    - Show all products (then you can select one to see more details)
+      - Show product details
+  - Remove product (confirm with user)
+  - Modify product settings / thresholds
+  - Exit
 
 ## Tools & Libraries:
 These are the current candidates for the tools and libraries that will be used in the project:
 
-- **Web scraping**:  
-  - **BeautifulSoup**: A Python library for pulling data out of HTML and XML files. It provides simple ways to navigate, search, and modify the parse tree.
-  - **Scrapy**: An open-source and collaborative web crawling framework for Python. It provides a high-level API for extracting structured data from websites.
+- **Scrapy**: An open-source and collaborative web crawling framework for Python. It provides a high-level API for extracting structured data from websites.
 - **Notification**: TODO: look for a good candidate
 - **TinyDB**: A lightweight, document-oriented database for Python that allows you to store and query data in JSON format.
 
